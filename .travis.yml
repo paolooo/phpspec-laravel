@@ -1,10 +1,12 @@
 language: php
 
 php:
+  - 7.2
   - 7.3
 
 env:
   - PHPSPEC_VERSION=~5.1.0 LARAVEL_VERSION=5.7.*
+  - PHPSPEC_VERSION=^6.0  LARAVEL_VERSION=^6.0
 
 cache:
   directories:
